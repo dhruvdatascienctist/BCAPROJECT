@@ -59,10 +59,9 @@ body{
     background-size: cover;
 }
 
-#main {
+
+.main{
     margin-top: 180px;
-    text-align: center;
-    
 }
 
 #cricket {
@@ -81,4 +80,23 @@ body{
     color:white;
     -webkit-text-stroke: 1.5px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    
+     margin-left: 140px;
+     color:white;
+     border-radius: 10px;
+     height: 60px;
+     width: 300px;
+     padding:8px 22px;
+     background:red;
+     transition: all 0.2s ease;
+}
+
+#lower{
+    position: absolute;
+    bottom:150px;
+    
+    display: inline;
 }
