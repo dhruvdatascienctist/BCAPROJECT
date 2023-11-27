@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+a {
+    position: relative;
+    transition: 0.5s;
+}
+
+a:hover{
+    letter-spacing: 0.1em;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -82,8 +91,9 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-button {
-    
+.btn {
+     font-size: 20px;
+     -webkit-text-stroke: 0.3px black;
      margin-left: 140px;
      color:white;
      border-radius: 10px;
@@ -91,7 +101,19 @@ button {
      width: 300px;
      padding:8px 22px;
      background:red;
-     transition: all 0.2s ease;
+     cursor: pointer;
+     transition: 0.9s;
+     border:white;
+}
+
+.btn1:hover {
+    color:red;
+    -webkit-text-stroke: 0.3px red;
+    background-color: white;
+    transition: 0.9s;
+    border: red;
+    border-width: 10px;
+    letter-spacing: 0.1em;;
 }
 
 #lower{
