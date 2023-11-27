@@ -1,9 +1,86 @@
-#headdiv {
-    background-color: white ;
-    display:inline ;
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left:0;
     width: 100%;
+    padding: 30px 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
 #logo {
-   margin-left: 100px;
+   margin-left: 10px;
+   width:400px;
+   height:100px;
+}
+
+.navbar a {
+    margin-right: 20px;
+    text-decoration: none;
+    display: inline;
+    padding-bottom: 20px;
+    position: relative;
+    font-weight: 550;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(1, 57, 1);
+    
+}
+
+.navbar a::before{
+    content:"";
+    position: absolute;
+    top:50%;
+    left:0;
+    width: 0;
+    height: 2px;
+    background-color:rgb(1, 57, 1);
+    transition: 0.4s;
+    font-weight: 500;
+    
+}
+
+.navbar a:hover::before{
+    width:100%
+
+}
+
+header{
+   
+    display: inline-block;
+    height: 50px;
+    width:100%;
+}
+
+body{
+
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+    
+}
+
+#main {
+    margin-top: 300px;
+    text-align: center;
+    
+}
+
+#cricket {
+    margin-left: 200px;
+    text-align: left;
+    font-size: 70px;
+    color:aliceblue;
+}
+
+#imp {
+    margin-left: 200px;
+    text-align: left;
+    font-size: 30px;
+    color:aliceblue;
 }
