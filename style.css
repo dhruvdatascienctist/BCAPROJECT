@@ -71,7 +71,7 @@ body{
 
 
 .main{
-    margin-top: 180px;
+    margin-top: 260px; 
 }
 
 #cricket {
@@ -79,18 +79,9 @@ body{
     text-align: left;
     font-size: 70px;
     color:white;
-    -webkit-text-stroke: 2.5px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#imp {
-    margin-left: 140px;
-    text-align: left;
-    font-size: 30px;
-    color:white;
-    -webkit-text-stroke: 1.5px black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 .btn {
      font-size: 20px;
@@ -137,37 +128,145 @@ body{
     margin-right: 150px;
     border: black;
     border-width: 1em;
+    
 }
 
 .first{
-    border-radius: 20px 20px 20px 20px;
+    padding:1px 1px 1px 1px;
+    
     background-color: white;
     margin-right: 50px;
     margin-left: 50px;
-    height: 400px;
+    height: 250px;
     width: 400px;
+    box-shadow: 0 2px 2px 0 black;
+}
+
+#cup:hover{
+    box-shadow: 0 5px 5px 0 green;
+    padding:1px 1px 1px 1px;
+    border: 2px dotted goldenrod;
+    transition: 0.3s;
 }
 
 .second{
-    border-radius: 20px 20px 20px 20px;
+    padding:1px 1px 1px 1px;
+    
     background-color: white;
-    height: 400px;
+    height: 250px;
     width: 400px;
+    box-shadow: 0 2px 2px 0 black;
 }
 
 .third{
-    border-radius: 20px 20px 20px 20px;
+    padding:1px 1px 1px 1px;
+    
     background-color: white;
     border: 5px solid none;
     margin-right: 50px;
     margin-left: 50px;
-    height: 400px;
+    height: 250px;
     width: 400px;
+    box-shadow: 0 2px 2px 0 black;
 }
 
 #cup{
-    padding-top: 20px;
+    
+    padding:1px 1px 1px 1px;
+    margin-top: 10px;
+    border-radius: 50px 50px 50px 50px;
+    border: 6px dotted goldenrod;
     height: 70px;
     width: 70px;
     align-content: center;
 }
+
+#pool{
+    padding:1px 1px 1px 1px;
+    margin-top: 10px;
+    border-radius: 50px 50px 50px 50px;
+    border: 6px dotted goldenrod;
+    height: 70px;
+    width: 70px;
+    align-content: center;
+}
+
+#pool:hover{
+    box-shadow: 0 5px 5px 0 blue;
+    padding:1px 1px 1px 1px;
+    border: 2px dotted goldenrod;
+    transition: 0.3s;
+}
+
+#snack{
+    padding:1px 1px 1px 1px;
+    margin-top: 10px;
+    border-radius: 50px 50px 50px 50px;
+    border: 6px dotted goldenrod;
+    height: 70px;
+    width: 70px;
+    align-content: center;
+}
+
+#snack:hover{
+    box-shadow: 0 5px 5px 0 red;
+    transition: 0.3s;
+    padding:1px 1px 1px 1px;
+    border: 2px dotted goldenrod;
+    
+}
+
+#hr1{
+    width: 500px;
+    color: black;
+    
+}
+
+#Quality{
+    padding-left: 200px;
+    font-size: 40px;   
+}
+
+.slot{
+        display: flex;
+        background-color: none;
+        align-content: center;
+        justify-content: center;
+        
+       
+        
+        
+}
+
+#ek{
+    padding:2px 2px 2px 2px;
+    background-color:rgb(179, 222, 115);
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+    box-shadow: -2px -2px 10px rgba(0,0,0,0.3)
+}
+
+#pics{
+    align-content: center;
+    padding:2px 2px 2px 2px;
+    height: 200px;
+    width: 400px;
+}
+
+#pic:hover,#ek:hover{
+    box-shadow: -5px -5px 25px rgba(0,0,0,0.3);
+    transform: scale(1.1);    
+    transition: 0.5s;
+}
+
+
+
+#heading{
+    text-align: center;
+    font-family:fantasy;
+    font-weight: 400px;
+    font-size: 30px;
+}
+
