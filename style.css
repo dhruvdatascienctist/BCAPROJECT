@@ -233,9 +233,6 @@ body{
         align-content: center;
         justify-content: center;
         
-       
-        
-        
 }
 
 #ek{
@@ -262,7 +259,6 @@ body{
 }
 
 
-
 #heading{
     text-align: center;
     font-family:fantasy;
@@ -270,3 +266,10 @@ body{
     font-size: 30px;
 }
 
+#overs{
+    text-align: center;
+    font-family:fantasy;
+    font-weight: 400px;
+    font-size: 30px;
+    color:rgb(53, 154, 221);
+}
